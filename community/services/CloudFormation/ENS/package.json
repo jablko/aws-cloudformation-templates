@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@ensdomains/dnsregistrar": "",
+    "@ensdomains/ens": "",
+    "@ensdomains/ethregistrar": "",
+    "@ensdomains/resolver": "",
+    "aws-sdk": "",
+    "dns-packet": "",
+    "ethereum-ens": ""
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "",
+    "eslint": "",
+    "ganache-core": "",
+    "jest": "",
+    "prettier": "",
+    "webpack": "",
+    "webpack-cli": ""
+  },
+  "resolutions": {
+    "@ensdomains/dnsprovejs": "<0.1.4 || >0.1.4"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "resetMocks": true
+  }
+}

@@ -1,0 +1,7 @@
+# For GNU Make shell assignment operator.
+# http://git.savannah.gnu.org/cgit/make.git/tree/NEWS
+dist: xenial
+language: node_js
+node_js: 10
+env: NODE_OPTIONS=--max-old-space-size=2048
+script: make --directory community/services/CloudFormation/ENS check
